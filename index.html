@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link to Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Daily Journal</title>
+</head>
+<body>
+  <!-- Background element -->
+  <div class="background"></div>
+  <div class="container">
+    <!-- Unordered list to display journal entries -->
+    <ul id="entryList"></ul>
+    <div class="input-container">
+      <!-- Input field for new journal entries -->
+      <input type="text" id="newEntry" placeholder="Enter your journal entry....."><br>
+      <!-- Button to add new journal entry -->
+      <button id="addEntry"><i class="fas fa-plus"></i></button>
+      <!-- Container for displaying date and time -->
+      <div class="date-time" id="dateTime"></div>
+      <!-- Heading for the journal -->
+      <h1>My Daily Journal</h1>
+    </div>
+  </div>
+
+  <!-- Script files for the MVC components -->
+  <script src="model.js"></script>
+  <script src="view.js"></script>
+  <script src="controller.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
